@@ -169,6 +169,7 @@ function getResult () {
 
 
 function report () {
+    
 
 
 if (result === "You Win") {
