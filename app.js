@@ -3,6 +3,9 @@
 const computerChoiceDisplay = document.getElementById("computer-choice");
 const userChoiceDisplay = document.getElementById("user-choice");
 const resultDisplay = document.getElementById("result");
+const winDisplay = document.getElementById("win");
+const drawDisplay = document.getElementById("draw");
+const loseDisplay = document.getElementById("lose");
 
 // Creo la costante dei 3 button e delle possibili scelte: Rock, Paper, Scissors e la variabile delle scelte dell'utente
 
@@ -10,6 +13,10 @@ const possibleChoices = document.querySelectorAll('button');
 let userChoice
 let computerChoice
 let result
+
+var win = 0; // É importante usare "var" poichè il valore iniziale andrà a cambiare nel tempo
+var draw = 0; // É importante usare "var" poichè il valore iniziale andrà a cambiare nel tempo
+var lose = 0; // É importante usare "var" poichè il valore iniziale andrà a cambiare nel tempo
 
 // Richiamiamo le possibili scelte attraverso un forEach, per determinare le varie casistiche
 // (e) => la "e" sta per "event"
@@ -152,9 +159,31 @@ function getResult () {
         result = "You Win"
     }
 
-    
-
-    
 
     resultDisplay.innerHTML = result 
+
+    report()
+}
+
+// Vediamo come creare un counter di vittorie, pareggi e sconfitte
+
+
+function report () {
+
+
+if (result === "You Win") {
+    win++;
+    winDisplay.innerText = win;
+}
+
+if (result === "It's a draw") {
+    draw++;
+    drawDisplay.innerText = draw;
+}
+
+if (result === "You Lose") {
+    lose++;
+    loseDisplay.innerText = lose;
+}
+
 }

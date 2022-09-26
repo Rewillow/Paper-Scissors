@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rock, Paper, Scissors</title>
+    <title>Paper,Scissors,Rock,Lizard,Spock</title>
     <link href="styles.css" rel="stylesheet">
     <script src="app.js" defer></script>
 </head>
@@ -13,10 +13,12 @@
     <h1>Paper, Scissors, Rock, Lizard, Spock</h1>
 
     <div class="choice-result">
-    <h2 class="computer-choice" style="color: #cb3827;">Computer Choice: <span id="computer-choice" ></span></h2>
-    <h2 class="user-choice" style="color: #FFE81F;">Your Choice: <span id="user-choice"></span></h2>
+    <h2 class="computer-choice" style="color: #f37f04;">Computer Choice: <span id="computer-choice" ></span></h2>
+    <h2 class="user-choice" style="color: #cc58de;">Your Choice: <span id="user-choice"></span></h2>
     <h2 class="result" style="color: #ffffff;">Result: <span id="result"></span></h2>
     </div>
+
+    
 
     <div class="button-game">
     <button id="Paper" class="paper"><img src="img\Paper.png" id="Paper" class="paper-image"><br>Paper</button>
@@ -25,6 +27,13 @@
     <button id="Lizard" class="lizard"><img src="img\Lizard.png" id="Lizard" class="lizard-image"><br>Lizard</button>
     <button id="Spock" class="spock"><img src="img\Spock.png" id="Spock" class="spock-image"><br>Spock</button>
     </div>
+
+
+    <div class="report">
+        <h2 class="Win" style="color: rgb(3, 205, 3);">Win: <span id="win"></span></h2>
+        <h2 class="Draw" style="color: rgb(244, 244, 16);">Draw: <span id="draw"></span></h2>
+        <h2 class="Lose" style="color: red;">Lose: <span id="lose"></span></h2>
+        </div>
 
 </body>
 </html>

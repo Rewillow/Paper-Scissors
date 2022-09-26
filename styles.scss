@@ -1,3 +1,4 @@
+
 $font-general: cabin, sans-serif;
 $h1-color: white;
 
@@ -19,6 +20,7 @@ h1 {
     margin-bottom: 25px;
     text-align: center;
     font-size: 3rem;
+    font-style: italic;
 }
 
 .choice-result {
@@ -36,8 +38,17 @@ h1 {
     }
 }
 
+.report {
+    color: $h1-color;
+    font-size: 1.5rem;
+    margin-top: 60px;
+    text-align: center;
+   
+}
+
 .button-game {
     text-align: center;
+    margin-top: 10px;
 
     .rock-image {
         width: 50px;
@@ -65,14 +76,18 @@ h1 {
     }
 
     button {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     margin-top: 30px;
-    margin-left: 15px;
+    margin-left: 25px;
     padding: 0.5rem 1rem;
     border-radius: 10px;
     border: none;
     background-color: #2E67F8;
     color: $h1-color;
+}
+
+button:hover {
+    opacity: 0.8;
 }
     
 }
