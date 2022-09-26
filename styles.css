@@ -78,7 +78,7 @@ h1 {
 
 @media all and (min-width: 370px) and (max-width: 500px) {
   h1 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
   }
   .choice-result {
     font-size: 1.2rem;
@@ -87,7 +87,7 @@ h1 {
     margin-top: 50px;
   }
   .report {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin-bottom: 20px;
     margin-top: 40px;
   }
