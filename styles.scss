@@ -27,7 +27,7 @@ h1 {
     text-align: center;
     color: $h1-color;
     font-size: 1.5rem;
-    line-height: 3.5rem;
+    line-height: 3rem;
 
     .computer-choice {
     margin-top: 70px;
@@ -43,6 +43,7 @@ h1 {
     font-size: 1.5rem;
     margin-top: 60px;
     text-align: center;
+    line-height: 3rem;
    
 }
 
@@ -90,4 +91,39 @@ button:hover {
     opacity: 0.8;
 }
     
+}
+
+@media all and (min-width: 370px) and (max-width: 500px)  {
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .choice-result {
+        font-size: 1.2rem;
+
+        .computer-choice {
+            margin-top: 50px;
+        }
+    }
+
+    .report {
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+        margin-top: 40px;
+    }
+
+    .button-game {
+
+    button {
+        display: inline-block;
+        font-size: 1rem;
+        margin-left: 15px;
+        margin-right: 15px;
+        align-items: center;
+        
+    }
+}
+
+
 }
