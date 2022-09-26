@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(23, 31, 118);
+}
+
+h1 {
+  color: white;
+  font-family: cabin, sans-serif;
+  margin-top: 40px;
+  margin-bottom: 25px;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.choice-result {
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  line-height: 3.5rem;
+}
+.choice-result .computer-choice {
+  margin-top: 70px;
+}
+.choice-result .result {
+  margin-bottom: 20px;
+}
+
+.button-game {
+  text-align: center;
+}
+.button-game .rock-image {
+  width: 50px;
+  height: auto;
+}
+.button-game .paper-image {
+  width: 50px;
+  height: auto;
+}
+.button-game .scissors-image {
+  width: 50px;
+  height: auto;
+}
+.button-game .lizard-image {
+  width: 50px;
+  height: auto;
+}
+.button-game .spock-image {
+  width: 50px;
+  height: auto;
+}
+.button-game button {
+  font-size: 1.1rem;
+  margin-top: 30px;
+  margin-left: 15px;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  border: none;
+  background-color: #2E67F8;
+  color: white;
+}/*# sourceMappingURL=styles.css.map */
