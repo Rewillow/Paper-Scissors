@@ -78,16 +78,17 @@ h1 {
 
 @media all and (min-width: 370px) and (max-width: 500px) {
   h1 {
+    margin-top: 12px;
     font-size: 2rem;
   }
   .choice-result {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   .choice-result .computer-choice {
-    margin-top: 50px;
+    margin-top: 38px;
   }
   .report {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin-bottom: 20px;
     margin-top: 40px;
   }
@@ -101,16 +102,17 @@ h1 {
 }
 @media all and (min-width: 501px) and (max-width: 620px) {
   h1 {
+    margin-top: 12px;
     font-size: 2rem;
   }
   .choice-result {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   .choice-result .computer-choice {
-    margin-top: 50px;
+    margin-top: 38px;
   }
   .report {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin-bottom: 20px;
     margin-top: 40px;
   }
