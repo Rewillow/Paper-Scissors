@@ -1,1 +1,1 @@
-# Paper-Scissors-Rock-Lizard-Spock
+# Rock-Paper-Scissors-Lizard-Spock
